@@ -1,0 +1,459 @@
+/************* PARAMETRES COMMUNS **************/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+.fond{
+    border: 3px solid blue;
+    background-color: #cccccc;
+}
+.case-conteneur{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+}
+
+.element-flexible{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    
+}
+#A{
+    background-color: #22b7a3;
+    margin: 0;
+}
+#B{
+    background-color: #d1c030;
+    margin: 0;
+}
+#C{
+    background-color:#ce70d3;
+    margin: 0;
+}
+#D{
+    background-color: #4289fd;
+    margin: 0;
+}
+/* EXO 1.5 */
+.case-conteneur1-5{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+}
+
+.element-flexible1-5{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXI 2.1 */
+.case-conteneur2-1{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+    justify-content: flex-end;
+}
+
+.element-flexible2-1{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 2.2 */
+.case-conteneur2-2{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+    justify-content: space-around;
+}
+
+.element-flexible2-2{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 2.3 */
+.case-conteneur2-3{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+}
+
+.element-flexible2-3{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 2.4 */
+.case-conteneur2-4{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+    justify-content: center;
+}
+
+.element-flexible2-4{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 3.1 */
+.case-conteneur3-1{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+    flex-direction: column;
+}
+
+.element-flexible3-1{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 3.2 */
+.case-conteneur3-2{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+    flex-direction: row-reverse;
+}
+
+.element-flexible3-2{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 4.1 */
+.case-conteneur4-1{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+}
+
+.element-flexible4-1{
+    margin: 10px;
+    height: 50px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 4.2 */
+.case-conteneur4-2{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+}
+
+.element-flexible4-2{
+    margin: 10px;
+    height: 50px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 4.3 */
+.case-conteneur4-3{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    padding: 3px;
+}
+
+.element-flexible4-3{
+    margin: 10px;
+    height: 50px;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 4.4 */
+.case-conteneur4-4{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 50% 35% 10% 5%;
+    padding: 3px;
+}
+
+.element-flexible4-4{
+    margin: 10px;
+    height: 50px;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 4.5 */
+.case-conteneur4-5{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 3px;
+}
+
+.element-flexible4-5{
+    margin: 10px;
+    height: 50px;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 5.1 */
+.case-conteneur5-1{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    display: flex;
+    margin: 15px;
+    padding: 3px;
+    height: 200px;
+    align-items: end;
+}
+
+.element-flexible5-1{
+    margin: 10px;
+    height: 50px;
+    width : 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 5.2 */
+.case-conteneur5-2{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    display: flex;
+    margin: 15px;
+    padding: 3px;
+    height: 200px;
+    align-items: center;
+}
+
+.element-flexible5-2{
+    margin: 10px;
+    height: 50px;
+    width : 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 5.3 */
+.case-conteneur5-3{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    display: flex;
+    margin: 15px;
+    padding: 3px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.element-flexible5-3{
+    margin: 10px;
+    height: 50px;
+    width : 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXI 5.4 */
+.case-conteneur5-4{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    display: flex;
+    margin: 15px;
+    padding: 3px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.element-flexible5-4{
+    margin: 10px;
+    height: 100%;
+    width : 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 5.5 */
+.case-conteneur5-5{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    display: flex;
+    margin: 15px;
+    padding: 3px;
+    height: 200px;
+    flex-direction: column;
+   
+}
+
+.element-flexible5-5{
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 5.6 ?????????????*/
+.case-conteneur5-6{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 3px;
+    height: 200px;
+    flex-direction: row;
+}
+.case-conteneur5-6-B{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    flex-direction: row;
+}
+.case-conteneur5-6-C{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 200px;
+    flex-direction: row;
+}
+.element-flexible5-6{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 5.7*/
+.case-conteneur5-7{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    height: 200px;
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 3px;
+    align-content: space-evenly;
+}
+
+.element-flexible5-7{
+    margin: 10px;
+    height: 50px;
+    width : 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/* EXO 6.1 */
+.case-conteneur6-1{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 3px;
+    flex-direction: row-reverse;
+}
+.case-conteneur6-1-AB{
+    width: 33%;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+   
+}.case-conteneur6-1-CD{
+    width: 33%;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+   
+}
+
+.element-flexible6-1{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EXO 6.2 non résolu*/
+.case-conteneur6-2{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    height: 200px;
+    margin: 15px;
+    padding: 3px;
+   display: flex;
+   justify-content: space-between;
+}
+.element-flexible6-2{
+    margin: 10px;
+    height: 50px;
+    width : 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
