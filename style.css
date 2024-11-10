@@ -17,7 +17,6 @@ body {
 }
 
 .element-flexible{
-    margin: 10px;
     height: 50px;
     width: 50px;
     display: flex;
@@ -25,19 +24,19 @@ body {
 }
 #A{
     background-color: #22b7a3;
-    margin: 0;
+   
 }
 #B{
     background-color: #d1c030;
-    margin: 0;
+   
 }
 #C{
     background-color:#ce70d3;
-    margin: 0;
+   
 }
 #D{
     background-color: #4289fd;
-    margin: 0;
+ 
 }
 /* EXO 1.5 */
 .case-conteneur1-5{
@@ -49,7 +48,6 @@ body {
 }
 
 .element-flexible1-5{
-    margin: 10px;
     height: 50px;
     width: 50px;
     display: flex;
@@ -67,7 +65,6 @@ body {
 }
 
 .element-flexible2-1{
-    margin: 10px;
     height: 50px;
     width: 50px;
     display: flex;
@@ -85,7 +82,6 @@ body {
 }
 
 .element-flexible2-2{
-    margin: 10px;
     height: 50px;
     width: 50px;
     display: flex;
@@ -103,7 +99,6 @@ body {
 }
 
 .element-flexible2-3{
-    margin: 10px;
     height: 50px;
     width: 50px;
     display: flex;
@@ -121,7 +116,6 @@ body {
 }
 
 .element-flexible2-4{
-    margin: 10px;
     height: 50px;
     width: 50px;
     display: flex;
@@ -157,7 +151,6 @@ body {
 }
 
 .element-flexible3-2{
-    margin: 10px;
     height: 50px;
     width: 50px;
     display: flex;
@@ -174,7 +167,6 @@ body {
 }
 
 .element-flexible4-1{
-    margin: 10px;
     height: 50px;
     width: 10%;
     display: flex;
@@ -191,7 +183,6 @@ body {
 }
 
 .element-flexible4-2{
-    margin: 10px;
     height: 50px;
     width: 25%;
     display: flex;
@@ -209,7 +200,6 @@ body {
 }
 
 .element-flexible4-3{
-    margin: 10px;
     height: 50px;
     width : 100%;
     display: flex;
@@ -227,7 +217,6 @@ body {
 }
 
 .element-flexible4-4{
-    margin: 10px;
     height: 50px;
     width : 100%;
     display: flex;
@@ -245,7 +234,6 @@ body {
 }
 
 .element-flexible4-5{
-    margin: 10px;
     height: 50px;
     width : 100%;
     display: flex;
@@ -264,7 +252,6 @@ body {
 }
 
 .element-flexible5-1{
-    margin: 10px;
     height: 50px;
     width : 5%;
     display: flex;
@@ -283,7 +270,6 @@ body {
 }
 
 .element-flexible5-2{
-    margin: 10px;
     height: 50px;
     width : 5%;
     display: flex;
@@ -304,14 +290,13 @@ body {
 }
 
 .element-flexible5-3{
-    margin: 10px;
     height: 50px;
     width : 5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* EXI 5.4 */
+/* EXO 5.4 */
 .case-conteneur5-4{
     border: 1px solid #a6a6a6;
     background-color: #999999;
@@ -324,7 +309,6 @@ body {
 }
 
 .element-flexible5-4{
-    margin: 10px;
     height: 100%;
     width : 5%;
     display: flex;
@@ -344,13 +328,12 @@ body {
 }
 
 .element-flexible5-5{
-    margin: 10px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* EXO 5.6 ?????????????*/
+/* EXO 5.6 ?*/
 .case-conteneur5-6{
     border: 1px solid #a6a6a6;
     background-color: #999999;
@@ -376,7 +359,7 @@ body {
     flex-direction: row;
 }
 .element-flexible5-6{
-    margin: 10px;
+  
     height: 50px;
     width: 50px;
     display: flex;
@@ -396,7 +379,6 @@ body {
 }
 
 .element-flexible5-7{
-    margin: 10px;
     height: 50px;
     width : 100%;
     display: flex;
@@ -412,25 +394,38 @@ body {
     justify-content: space-between;
     margin: 15px;
     padding: 3px;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
-.case-conteneur6-1-AB{
+.A6-1{
+    order: 3;
     width: 33%;
     background-color: #999999;
     display: flex;
     justify-content: space-between;
    
-}.case-conteneur6-1-CD{
+}
+.B6-1{
+    order:4;
     width: 33%;
     background-color: #999999;
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
-   
 }
-
+.C6-1{
+    order:2;
+    width: 33%;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+}
+.D6-1{
+    order:1;
+    width: 33%;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+}
 .element-flexible6-1{
-    margin: 10px;
     height: 50px;
     width: 50px;
     display: flex;
@@ -438,7 +433,7 @@ body {
     align-items: center;
 }
 
-/* EXO 6.2 non résolu*/
+/* EXO 6.2*/
 .case-conteneur6-2{
     border: 1px solid #a6a6a6;
     background-color: #999999;
@@ -448,12 +443,150 @@ body {
    display: flex;
    justify-content: space-between;
 }
+.A6-2{
+    order: 3;
+    width: 33%;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+   
+}
+.B6-2{
+    order:1;
+    width: 33%;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+}
+.C6-2{
+    order:2;
+    width: 33%;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+}
+.D6-2{
+    order:4;
+    width: 33%;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
 .element-flexible6-2{
-    margin: 10px;
+    
     height: 50px;
     width : 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* EXO 6.3*/
+.case-conteneur6-3{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    padding: 3px;
+    align-content: space-evenly;
+}
 
+.element-flexible6-3{
+    height: 50px;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 7.1 */
+.case-conteneur7-1{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+}
+
+.element-flexible7-1{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 7.2 */
+.case-conteneur7-2{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    padding: 3px;
+}
+
+.element-flexible7-2{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EXO 7.3 */
+.case-conteneur7-3{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+}
+
+.element-flexible7-3{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* EXO 7.2 */
+.case-conteneur7-4{
+    border: 1px solid #a6a6a6;
+    background-color: #999999;
+    margin: 15px;
+    display:block;
+    padding: 3px;
+}
+.l1{
+    margin-right:7.8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.l2{
+    margin-left: 7.8%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.l3{
+    margin-right: 7.8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.l4{
+    margin-left: 7.8%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.element-flexible7-4{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
